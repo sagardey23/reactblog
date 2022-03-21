@@ -1,12 +1,45 @@
-import React from 'react'
+import React from 'react';
+// import React, { useContext } from 'react'
+// import { AllContext } from './AllContext'
+// import { Link } from 'react-router-dom'
 import './compoStyling.css';
 import PostDetailsPost from './PostDetailsPost';
+// import { useParams } from "react-router-dom";
 
 
 function PostDetails() {
+    // console.log();
+    // const { id } = useParams();
+    // let result = []
+    // const MoreResult = []
+    // const [data] = useContext(AllContext);
+    // data.forEach((props) => {
+    //     if (props.Id === id) {
+    //         result.push(props.Category)
+
+
+    //     }
+    // })
+    // const category = result[0]
+    // data.forEach((props) => {
+    //     if ((props.Category === category) && (props.Id !== id)) {
+    //         MoreResult.push(
+    //             {
+    //                 id: props.Id,
+    //                 category: props.Category,
+    //                 name: props.Name,
+    //                 img: props.Img,
+    //                 date: props.Date,
+    //                 detail: props.Details,
+    //                 about: props.About
+    //             })
+    //     }
+    // })
     return (
         <>
+        
         <div className='postdetailsparent'>
+            
             <p>5 Ways to animate a React app.</p>
             <div className='postdetailsecpdiv'>
                 <div >
@@ -53,11 +86,6 @@ function PostDetails() {
                         <br></br>
                         <p>Jan 28, 2019 · 10 min read</p>
                     </div>
-                   
-                    {/* <span>f</span>
-                    <span>i</span>
-                    <span>t</span>
-                    <span>y</span> */}
             </div>
              <hr></hr>
              
